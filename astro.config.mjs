@@ -18,6 +18,7 @@ export default defineConfig({
       lastUpdated: false,
       pagination: true,
       sidebar: [
+        { label: '交易金字塔：寫給讀者的話', slug: 'unit00' },
         {
           label: '交易哲學與心智基礎',
           items: [
@@ -69,6 +70,7 @@ export default defineConfig({
             { label: '一場選擇權交易競賽實戰複盤', slug: 'unit21' },
           ],
         },
+        { label: '結語:理解市場如何運作', slug: 'unit22' },
       ],
     }),
     react(),
